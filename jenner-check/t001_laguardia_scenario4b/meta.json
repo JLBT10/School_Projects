@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_laguardia_scenario4b",
+  "source_file": "SAS Project/EXAM-SCENARII4B-BOA-THIEMELE.sas",
+  "source_blob_sha": "38fd72d508cff6ef1f0abbf0994abe0f4ab75030",
+  "source_commit": "c35af89ada435eb5f04533879489f5928d6de98c",
+  "notes": "SAS certification-exam scenario: sort Cert.Laguardia by Dest, print grouped by Dest, and pull observations 12 and 33. The original LIBNAME points at a local Windows path holding the SAS-cert-guide LAGUARDIA practice dataset (flight boardings by destination), which isn't in the repo; substituted a same-shape 33-row mock Work.Laguardia via DATALINES (Dest + Boarded) so the author's own PROC SORT / PROC PRINT sequence (including the firstobs/obs observation pulls) runs unmodified. The ODS PDF portion of the original was dropped since file-based PDF output isn't verifiable via the API's log/output text capture."
+}

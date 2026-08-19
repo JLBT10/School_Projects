@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-08-19T15:20:47Z",
+  "_captured_run_id": "r_f95ba380ee7041e589745ce820425801",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote Work.Laguardia (33 rows, 2 columns).",
+    "NOTE: PROC SORT statement used.",
+    "NOTE: PROC PRINT completed: 33 observations printed, 1 variables",
+    "NOTE: PROC PRINT completed: 1 observations printed, 1 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

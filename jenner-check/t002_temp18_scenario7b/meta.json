@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_temp18_scenario7b",
+  "source_file": "SAS Project/EXAM-SCENARII7B-BOA-THIEMELE.sas",
+  "source_blob_sha": "bbe99d80f717b03079d21951930b42463ee3687a",
+  "source_commit": "c35af89ada435eb5f04533879489f5928d6de98c",
+  "notes": "SAS certification-exam scenario: read Cert.Temp18, format Day as DATE9., derive Month from Day, run a one-way PROC FREQ on HighTemp, and PROC MEANS (mean/stddev) for AvgHighTemp/AvgLowTemp by Month, plus two follow-up questions (HighTemp=53 frequency, AvgLowTemp mean/stddev for Month=2). The original LIBNAME points at a local Windows path holding the SAS-cert-guide TEMP18 practice dataset (daily weather readings), which isn't in the repo (its extract, SAS Project/D.TXT, was removed from the repo before this bundle was built); substituted a same-shape 14-row mock Work.Scenario7 via DATALINES spanning January and February so the author's own format/derive/PROC FREQ/PROC MEANS sequence runs unmodified. One mechanical rewrite was needed to make the DATALINES-based mock work: the original reused the variable name Day across the raw character input and the DATE9.-formatted numeric conversion (a name/type collision against the fixed PDV type from SET); renamed the raw character field to DayChar and derived Day via input(DayChar, date9.), dropping DayChar, to preserve the author's format/derive logic."
+}

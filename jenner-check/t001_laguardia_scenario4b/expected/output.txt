@@ -1,0 +1,90 @@
+
+Dest=ATL
+
+  Obs  Boarded  
+    1      158
+    2      142
+
+Dest=BOS
+
+  Obs  Boarded  
+    3       97
+    4       88
+    5      103
+
+Dest=CHI
+
+  Obs  Boarded  
+    6      176
+    7      164
+    8      190
+
+Dest=DEN
+
+  Obs  Boarded  
+    9      121
+   10      133
+   11      118
+
+Dest=DFW
+
+  Obs  Boarded  
+   12      205
+   13      198
+   14      211
+
+Dest=LON
+
+  Obs  Boarded  
+   15      180
+   16      165
+   17      173
+   18      190
+   19      200
+
+Dest=MIA
+
+  Obs  Boarded  
+   20      144
+   21      137
+   22      150
+
+Dest=ORD
+
+  Obs  Boarded  
+   23      162
+   24      155
+
+Dest=PHL
+
+  Obs  Boarded  
+   25       99
+   26      105
+   27      111
+
+Dest=SEA
+
+  Obs  Boarded  
+   28      132
+   29      128
+   30      140
+
+Dest=SFO
+
+  Obs  Boarded  
+   31      187
+   32      179
+   33      195
+
+Dest=DFW
+
+  Obs  Boarded  
+   12      205
+
+... 21 more observations (showing 1 of 22)
+
+Dest=SFO
+
+  Obs  Dest  
+   33  SFO
+
